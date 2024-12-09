@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pokémon Viewer</h1>
+    </header>
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search Pokémon by name">
+        <button onclick="searchPokemon()">Search</button>
+    </div>
+    <div id="pokemon-container">
+        <div class="pokemon-list" id="pokemon-list"></div>
+        <div id="error-message" class="error"></div>
+    </div>
+    <footer>
+        <p>Pokémon Viewer © 2024 | Created by <strong>Anshika</strong> | Powered by <a href="https://pokeapi.co/" target="_blank">PokéAPI</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
