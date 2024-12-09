@@ -37,7 +37,7 @@ Follow these steps to run the Pokémon Viewer locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/pokemon-viewer.git
+   git clone https://github.com/Anshika1-23/PokemonViewer.git
    cd pokemon-viewer
 2. Open index.HTML
 
